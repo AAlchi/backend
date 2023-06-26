@@ -7,6 +7,7 @@ const userSchema = new mongoose.Schema({
   email: { type: String },
   password: { type: String },
   image: { type: String },
+  friends: { type: Array },
 });
 
 // Create the model using the schema
